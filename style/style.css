@@ -1,0 +1,91 @@
+body{
+    background-image: url("back.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    font-family: 'Exo 2', sans-serif;
+}
+
+header{
+    text-align: center;
+    background-color:rgba(11, 43, 21, 0.8);
+    color:seagreen;
+    
+}
+
+.imgP1{
+width: 150px;
+padding-left: 10px;
+
+}
+
+.imgP2{
+    width: 150px;
+    padding-right: 20px;
+    
+    }
+.row1{
+    display: table;
+}
+
+.Pasha{
+    display: table-cell;
+    background: rgba(69, 104, 80,0.8);
+    width: 40%;
+    height:385px;
+    border: 3px solid green;
+    
+;}
+
+.loh{
+    text-align: right;
+    display: table-cell;
+    margin-top: 15px;
+    background: rgba(69, 104, 80,0.8);
+    width: 40%;
+    height:385px;
+    border: 3px solid green;
+    
+  
+}
+
+.stena{
+    float: left;
+    margin-top: 15px;
+    background: rgba(69, 104, 80,0.8);
+    width: 40%;
+    height:385px;
+    border: 3px solid green;
+    border-radius: 15px;
+}
+
+.Nymph{
+    text-align: right;
+    float: left;
+    margin-left: 19%;
+    margin-top: 15px;
+    background: rgba(69, 104, 80,0.8);
+    width: 40%;
+    height:385px;
+    border: 3px solid green;
+    border-radius: 15px;
+}
+
+p {
+    padding-left: 10px;
+    color: #9ff49f;
+    font-size: 20px;
+}
+
+.description2{
+    padding-right: 10px;
+}
+.hdng2{
+    padding-right: 20px; 
+}
+
+.hdng1{
+    padding-left: 10px; 
+}
+.coloredLetter{
+    color:seagreen;
+}
