@@ -15,12 +15,14 @@ header{
 .imgP1{
 width: 150px;
 padding-left: 10px;
+border-radius: 80px;
 
 }
 
 .imgP2{
     width: 150px;
     padding-right: 20px;
+    border-radius: 80px;
     
     }
 .row1{
@@ -29,7 +31,7 @@ padding-left: 10px;
 
 .Pasha{
     display: table-cell;
-    background: rgba(69, 104, 80,0.8);
+    background: rgba(27, 80, 44, 0.8);
     width: 40%;
     height:385px;
     border: 3px solid green;
@@ -40,7 +42,7 @@ padding-left: 10px;
     text-align: right;
     display: table-cell;
     margin-top: 15px;
-    background: rgba(69, 104, 80,0.8);
+    background: rgba(58, 104, 72, 0.8);
     width: 40%;
     height:385px;
     border: 3px solid green;
@@ -51,7 +53,7 @@ padding-left: 10px;
 .stena{
     float: left;
     margin-top: 15px;
-    background: rgba(69, 104, 80,0.8);
+    background: rgba(70, 116, 40, 0.8);
     width: 40%;
     height:385px;
     border: 3px solid green;
@@ -61,9 +63,8 @@ padding-left: 10px;
 .Nymph{
     text-align: right;
     float: left;
-    margin-left: 19%;
     margin-top: 15px;
-    background: rgba(69, 104, 80,0.8);
+    background: rgba(29, 94, 77, 0.8);
     width: 40%;
     height:385px;
     border: 3px solid green;
@@ -80,12 +81,75 @@ p {
     padding-right: 10px;
 }
 .hdng2{
-    padding-right: 20px; 
+    padding-right: 20px;
+    font-weight: bold;  
 }
 
 .hdng1{
-    padding-left: 10px; 
+    padding-left: 10px;
+    font-weight: bold; 
 }
 .coloredLetter{
     color:seagreen;
+}
+.table{
+    display: table;
+    float: left;
+    border-collapse: collapse;
+    height: 350px;
+    margin-top: 40px;
+
+}
+.tr1{
+    display: table-row;
+
+}
+.tr2{
+    display: table-row;
+
+}
+.td1{
+    display: table-cell;
+    height: 100px;
+    width: 60px;
+    background: linear-gradient(45deg, grey, green);
+    border-radius: 40px;
+}
+.td2{
+    display: table-cell;
+    height: 100px;
+    width: 120px;
+    background: radial-gradient(grey, green);
+    border-radius: 40px;
+}
+.td3{
+    display: table-cell;
+    height: 100px;
+    width: 120px;
+    background: repeating-linear-gradient(45deg, grey, green 10px, grey 10px, green 20px);
+    border-radius: 40px;
+}
+.td4{
+    display: table-cell;
+    height: 100px;
+    width: 120px;
+    background: repeating-radial-gradient(grey, green 15%);
+    border-radius: 40px;
+}
+.row2{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h3{
+    background: darkgreen;
+    color:mediumseagreen;
+}
+
+footer{
+    text-align: center;
+    background-color:rgba(11, 43, 21, 0.8);
+    color:seagreen;
+    
 }
